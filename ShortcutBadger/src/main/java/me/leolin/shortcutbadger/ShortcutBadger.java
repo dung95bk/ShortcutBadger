@@ -27,6 +27,7 @@ import me.leolin.shortcutbadger.impl.OPPOHomeBader;
 import me.leolin.shortcutbadger.impl.SamsungHomeBadger;
 import me.leolin.shortcutbadger.impl.SonyHomeBadger;
 import me.leolin.shortcutbadger.impl.VivoHomeBadger;
+import me.leolin.shortcutbadger.impl.XiaomiHomeBadger;
 import me.leolin.shortcutbadger.impl.YandexLauncherBadger;
 import me.leolin.shortcutbadger.impl.ZTEHomeBadger;
 import me.leolin.shortcutbadger.impl.ZukHomeBadger;
@@ -52,6 +53,7 @@ public final class ShortcutBadger {
         BADGERS.add(NewHtcHomeBadger.class);
         BADGERS.add(NovaHomeBadger.class);
         BADGERS.add(SonyHomeBadger.class);
+        BADGERS.add(XiaomiHomeBadger.class);
         BADGERS.add(AsusHomeBadger.class);
         BADGERS.add(HuaweiHomeBadger.class);
         BADGERS.add(OPPOHomeBader.class);

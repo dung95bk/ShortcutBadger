@@ -23,7 +23,6 @@ import me.leolin.shortcutbadger.util.BroadcastHelper;
 /**
  * @author leolin
  */
-@Deprecated
 public class XiaomiHomeBadger implements Badger {
 
     public static final String INTENT_ACTION = "android.intent.action.APPLICATION_MESSAGE_UPDATE";
